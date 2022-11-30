@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid Data</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Coronavirus Details</h1>
+    <div id="main" class="main">
+        <label><b>Select Country :</b></label>
+        <select id="dropdown" class="dropdown">
+
+        </select>
+        <button type="button" onclick="createTable()""><b>Submit</b></button>
+
+<div id=" country"class="country">
+            <div id="countryname" class="countryname"></div>
+            <div id="date" class="date"></div>
+            <table id="table" class="table">
+                <tr>
+                    <td><b>New Confirmed cases: </b></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><b>Total Confirmed Cases: </b></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><b>New Deaths: </b></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><b>Total Deaths: </b></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><b>New Recovered: </b></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td><b>Total Recovered: </b></td>
+                    <td></td>
+                </tr>
+            </table>
+    </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

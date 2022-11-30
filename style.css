@@ -1,0 +1,86 @@
+body {
+    /* background-image: url(https://saiplatform.org/wp-content/uploads/2020/05/background-c19.jpg); */
+    background-image: url("covid19-feature-1600x900.jpg");
+}
+
+.main {
+    width: 60%;
+    position: absolute;
+    left: 20%;
+    top: 25%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgb(53, 2, 17);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+h1 {
+    color: black;
+    font-size: 4em;
+    position: absolute;
+    left: 30%;
+    top: 8%;
+}
+
+.country {
+    display: flex;
+    flex-direction: column;    
+    border-radius: 10px;
+    padding: 0px 5px 5px 5px;
+}
+
+label {
+    padding: 5px;
+    font-size: 1.8em;
+}
+
+table {
+    color: white;
+    border-collapse: collapse;
+}
+
+/* th, */
+td {
+    color: white;
+    border: 2px solid rgb(155 147 147);  
+    font-size: 1.4em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width:50%;
+    padding: 4px;
+}
+
+.table {
+    visibility: hidden;
+}
+
+.countryname {
+    color: white;
+    font-size: 1.8em;
+}
+
+.date {
+    color: white;
+    font-size: 1.3em;
+}
+#dropdown{
+    width: 99%;
+    padding: 8px;
+    margin-left: 4px;
+    border-radius: 10px;
+    font-size: 1em;
+}
+button {
+    font-size: 1em;
+    width: 18%;
+    margin-top: 5px;
+    margin-left: 41%;
+    line-height: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: rgb(138, 133, 133);
+}
